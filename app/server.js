@@ -13,7 +13,7 @@ const employees = [
 
 app.get("/", (req, res) => {
   res.send(`
-    <<h1>Employee App Version 3</h1>
+    <<h1>Employee App Version 3.1</h1>
     <h2>Environment: ${ENVIRONMENT}</h2>
     <pre>${JSON.stringify(employees, null, 2)}</pre>
   `);
